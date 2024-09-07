@@ -1,0 +1,28 @@
+@media only screen and (max-width: 600px) {
+    .mobile-navbar-wrapper{
+        display: block;
+    }
+
+    #content{
+        display: flex!important;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .new-arriavals-header p{
+        font-size: 20px;
+    }
+  }
+
+
+
+  @media only screen and (min-width: 600px) {
+    .mobile-navbar-wrapper{
+        display: none;
+    }
+
+    .new-arriavals-header p{
+        font-size: 35px;
+    }
+  }
